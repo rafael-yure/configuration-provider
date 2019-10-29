@@ -2,11 +2,9 @@ server:
   port: '${PORT:9797}'
 
 spotify:
-
   endpoints:
     authentication: 'https://accounts.spotify.com/api/token'
     suggestions: 'https://api.spotify.com/v1/recommendations'
-
-  acess:
+  access:
     id: e3804acbf8ca4440a33206c36f903f55
     secret: a344b44bf79f4d5eb20a4a54e8709afd
