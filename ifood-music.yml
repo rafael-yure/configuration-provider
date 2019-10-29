@@ -14,3 +14,4 @@ openweather:
     currentWeather: 'https://api.openweathermap.org/data/2.5/weather'
   access:
     apikey: '2d0feff4ab38bbe9dc34faa9725c3e2d'
+  units: 'metric'
