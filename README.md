@@ -1,0 +1,2 @@
+# configuration-repository
+Configuration repository
