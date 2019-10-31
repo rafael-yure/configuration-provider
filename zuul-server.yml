@@ -16,7 +16,7 @@ zuul:
     routes:
         music:
             path: '/playlist/suggestion/**'
-            serviceId: ifood-music
+            serviceId: IFOOD-MUSIC
 endpoints:
     routes:
         sensitive: false
