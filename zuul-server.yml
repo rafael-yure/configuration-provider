@@ -5,12 +5,11 @@ eureka:
         serviceUrl:
             defaultZone: '${EUREKA_URL:http://localhost:9595}/eureka/'
         registerWithEureka: false
-	fetchRegistry: true
 
 zuul:
     prefix: /api
     routes:
-        articles:
+        music:
             path: '/playlist/suggestion/**'
             serviceId: ifood-music
 ribbon:
