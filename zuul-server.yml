@@ -12,6 +12,10 @@ zuul:
         articles:
             path: '/playlist/suggestion/**'
             serviceId: ifood-music
+ribbon:
+    eureka:
+        enabled: true
+
 endpoints:
     routes:
         sensitive: false
