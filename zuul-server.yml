@@ -1,0 +1,19 @@
+server:
+    port: '${PORT:9000}'
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: '${EUREKA_URL:http://localhost:9595}/eureka/'
+        registerWithEureka: false
+
+zuul:
+    prefix: /api
+    routes:
+        articles:
+            path: '/playlist/suggestion/**'
+            serviceId: ifood-music
+endpoints:
+    routes:
+        sensitive: false
+    trace:
+        sensitive: false
