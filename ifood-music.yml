@@ -15,3 +15,11 @@ openweather:
   access:
     apikey: '2d0feff4ab38bbe9dc34faa9725c3e2d'
   units: 'metric'
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: '${EUREKA_URL:http://localhost:9595}/eureka/'
+    instance:
+        leaseRenewalIntervalInSeconds: 1
+        leaseExpirationDurationInSeconds: 2
