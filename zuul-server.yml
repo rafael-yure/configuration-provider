@@ -4,7 +4,7 @@ eureka:
     client:
         serviceUrl:
             defaultZone: '${EUREKA_URL:http://localhost:9595}/eureka/'
-        registerWithEureka: false
+        registerWithEureka: true
 
 zuul:
     prefix: /api
