@@ -6,16 +6,16 @@ eureka:
             defaultZone: '${EUREKA_URL:http://localhost:9595}/eureka/'
         registerWithEureka: false
 
+ribbon:
+    eureka:
+        enabled: true
+
 zuul:
     prefix: /api
     routes:
         music:
             path: '/playlist/suggestion/**'
             serviceId: ifood-music
-ribbon:
-    eureka:
-        enabled: true
-
 endpoints:
     routes:
         sensitive: false
