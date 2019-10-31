@@ -1,0 +1,6 @@
+server:
+  port: 9595
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
