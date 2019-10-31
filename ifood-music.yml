@@ -48,13 +48,6 @@ resilience4j.bulkhead:
       maxConcurrentCall: 10
       maxWaitDuration: 30ms    
 
-resilience4j.thread-pool-bulkhead:
-  instances:
-    playListSuggestion:
-      maxThreadPoolSize: 1
-      coreThreadPoolSize: 1
-      queueCapacity: 1
-
 resilience4j.ratelimiter:
   instances:
     playListSuggestion:
